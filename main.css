@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #00340f; 
+    color: #ffffff;
+    padding: 20px;
+}
+
+#Escudo-Times {
+    display: flex;
+    justify-content: center;
+    gap: 118px; 
+    padding: 23px;
+}
+
+#Escudo-Times img {
+    width: 100px; 
+    height: auto;
+    
+    
+}
+
+header {
+    background-color: #00340f; 
+}
+
+header h1 {
+    background-color: #014828;
+    padding-top: 16px;
+    color: #f6ff00;
+    position: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border: 8px solid #ffee00;
+}
+
+#futbet {
+    text-align: center;
+}
+
+h1 ul {
+    text-align: center;
+}
+
+#apostas,
+#cinco-um {
+    color: #efff08;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00340f; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #04b83d;
+    color: #fff700;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #028c2b;
+    color: black;
+    
+}
